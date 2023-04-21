@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./images/mugshot.ico"/>
+    <link rel="bookmark" href="./images/mugshot.ico"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <style>
+      .bg-cover{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+      }
+      .banner{
+        height: 54px;
+      }           
+      /* 針對會員登入時視窗不會跳出來的解決辦法 https://stackoverflow.com/questions/53315398/bootsrap-4-modal-is-not-working-in-sticky-top-navbar*/
+      .modal-backdrop {
+        position:unset !important;
+      }
+    </style>
+    <title>阿國作品集｜首頁</title>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+
+      <!-- 導覽列 -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!--麵包LOGO-->
+        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" class="banner"></a>        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--左邊-->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./resume.html">工作履歷</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./graphic.html">平面設計</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">專案作品</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./personal.html">個人作品</a>
+            </li>
+          </ul>
+          <!--右邊-->
+          <!-- <ul class="navbar-nav">
+            <li class="nav-item active">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  個人資訊
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" type="button"  data-toggle="modal" data-target="#memberlogin" href="#">會員登入</a>                                        
+                  <a class="dropdown-item" href="#">關注清單</a>                
+                  <a class="dropdown-item" href="#">語言切換</a>                                    
+                </div>
+              </li>
+            </li>
+          </ul> -->
+        </div>
+      </nav>    
+      
+
+      <!-- 連結資訊區 -->
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="jumbotron text-center bg-cover text-white" style="background-image:url(./images/banner_resume.jpg);">            
+              <h1 class="display-5">工作履歷</h1>
+            <p class="lead h-50">經歷跟專長</p>            
+            <a class="btn btn-warning btn-lg stretched-link" href="./resume.html" role="button">More</a>                        
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="jumbotron text-center bg-cover text-white" style="background-image:url(./images/banner_projects.jpg);">            
+              <h1 class="display-5">專案作品</h1>
+            <p class="lead h-50">規劃與整合</p>            
+            <a class="btn btn-warning btn-lg stretched-link" href="./projects.html" role="button">More</a>                        
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="jumbotron text-center bg-cover text-white" style="background-image:url(./images/banner_graphic.jpg);">            
+              <h1 class="display-5">平面設計</h1>
+            <p class="lead h-50">軟體應用與美術編排</p>            
+            <a class="btn btn-warning btn-lg stretched-link" href="./graphic.html" role="button">More</a>                        
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="jumbotron text-center bg-cover text-white" style="background-image:url(./images/banner_personal.jpg);">            
+              <h1 class="display-5">個人作品</h1>
+            <p class="lead h-50">工作外的興趣</p>            
+            <a class="btn btn-warning btn-lg stretched-link" href="./personal.html" role="button">More</a>                        
+          </div>
+        </div>
+      </div>      
+    </div><!-- container的尾巴 -->
+
+    <!--footer 底部資訊區 -->
+    <div class="container-fulid bg-dark text-white mt-3 py-3 ">
+      <div class="row">
+        <div class="col-md-4 offset-2 col-sm-6 p-3">
+          <h2>阿國作品集</h2>
+          <p>電話：0920-939-787</p>
+          <p>e-mail：ss010101010@gmail.com</p>
+          <p>Copyright © 2023 apple lin. All rights reserved.</p>
+          <p>版權所有© 2023 林晁國</p>
+        </div>
+        <div class="col-md-4 offset-2 col-sm-6 p-3">          
+          <span><a href=""><img src="./images/facebook.png" alt=""></a></span>
+          <span><a href=""><img src="./images/instagram.png" alt=""></a></span>
+          <span><a href=""><img src="./images/twitter.png" alt=""></a></span>
+          <span><a href=""><img src="./images/linkedin.png" alt=""></a></span>
+          <p class="mt-5"><img src="./images/logo.png" alt=""></p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bootstrap JS 4.6.1版本 及 JQuery 3.5.1版本 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <!-- icon用js -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+  </body>
+</html>
